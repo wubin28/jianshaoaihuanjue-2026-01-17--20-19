@@ -23,11 +23,11 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 **Purpose**: Create Next.js project and configure development environment
 
-- [ ] T001 Create Next.js project by running `npx create-next-app@latest jianshaoaihuanjue-2026-01-17--21-22 --typescript --eslint --src-dir --app --no-tailwind --import-alias "@/*"`
-- [ ] T002 Install testing dependencies: `npm install --save-dev jest @testing-library/react @testing-library/jest-dom jest-environment-jsdom @types/jest` in jianshaoaihuanjue-2026-01-17--21-22/
-- [ ] T003 [P] Create Jest configuration file in jianshaoaihuanjue-2026-01-17--21-22/jest.config.js
-- [ ] T004 [P] Create Jest setup file in jianshaoaihuanjue-2026-01-17--21-22/jest.setup.js
-- [ ] T005 Add test scripts to jianshaoaihuanjue-2026-01-17--21-22/package.json
+- [x] T001 Create Next.js project by running `npx create-next-app@latest jianshaoaihuanjue-2026-01-17--21-22 --typescript --eslint --src-dir --app --no-tailwind --import-alias "@/*"`
+- [x] T002 Install testing dependencies: `npm install --save-dev jest @testing-library/react @testing-library/jest-dom jest-environment-jsdom @types/jest` in jianshaoaihuanjue-2026-01-17--21-22/
+- [x] T003 [P] Create Jest configuration file in jianshaoaihuanjue-2026-01-17--21-22/jest.config.js
+- [x] T004 [P] Create Jest setup file in jianshaoaihuanjue-2026-01-17--21-22/jest.setup.js
+- [x] T005 Add test scripts to jianshaoaihuanjue-2026-01-17--21-22/package.json
 
 **Checkpoint**: Project created with testing infrastructure ready
 
@@ -39,10 +39,10 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 **⚠️ CRITICAL**: Must complete before User Story 1 can be implemented
 
-- [ ] T006 Remove default boilerplate content from jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx (keep minimal structure)
-- [ ] T007 [P] Clean jianshaoaihuanjue-2026-01-17--21-22/src/app/globals.css to minimal styles with good contrast
-- [ ] T008 [P] Update metadata in jianshaoaihuanjue-2026-01-17--21-22/src/app/layout.tsx (title: "Hello World")
-- [ ] T009 Create test directory jianshaoaihuanjue-2026-01-17--21-22/__tests__/
+- [x] T006 Remove default boilerplate content from jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx (keep minimal structure)
+- [x] T007 [P] Clean jianshaoaihuanjue-2026-01-17--21-22/src/app/globals.css to minimal styles with good contrast
+- [x] T008 [P] Update metadata in jianshaoaihuanjue-2026-01-17--21-22/src/app/layout.tsx (title: "Hello World")
+- [x] T009 Create test directory jianshaoaihuanjue-2026-01-17--21-22/__tests__/
 
 **Checkpoint**: Foundation ready - clean slate for Hello World implementation
 
@@ -58,14 +58,14 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T010 [US1] Write failing test: page renders "Hello World" text in jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx
-- [ ] T011 [US1] Run tests to confirm T010 fails (Red phase of Red-Green-Refactor)
+- [x] T010 [US1] Write failing test: page renders "Hello World" text in jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx
+- [x] T011 [US1] Run tests to confirm T010 fails (Red phase of Red-Green-Refactor)
 
 ### Implementation for User Story 1
 
-- [ ] T012 [US1] Implement Home page component displaying "Hello World" in jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx
-- [ ] T013 [US1] Run tests to confirm T010 now passes (Green phase)
-- [ ] T014 [US1] Verify page works with JavaScript disabled (SSG/SSR renders content)
+- [x] T012 [US1] Implement Home page component displaying "Hello World" in jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx
+- [x] T013 [US1] Run tests to confirm T010 now passes (Green phase)
+- [x] T014 [US1] Verify page works with JavaScript disabled (SSG/SSR renders content)
 
 **Checkpoint**: User Story 1 complete - "Hello World" displays on main page
 
@@ -75,12 +75,12 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 **Purpose**: Verify all requirements and ensure quality
 
-- [ ] T015 Run `npm run dev` and manually verify http://localhost:3000 displays "Hello World"
-- [ ] T016 [P] Run `npm run build` to verify production build succeeds
-- [ ] T017 [P] Run `npm run lint` to verify no linting errors
-- [ ] T018 Verify page renders correctly on mobile viewport (responsive check)
-- [ ] T019 Verify color contrast meets WCAG 2.1 AA requirements (4.5:1 ratio)
-- [ ] T020 Run quickstart.md verification checklist
+- [x] T015 Run `npm run dev` and manually verify http://localhost:3000 displays "Hello World"
+- [x] T016 [P] Run `npm run build` to verify production build succeeds
+- [x] T017 [P] Run `npm run lint` to verify no linting errors
+- [x] T018 Verify page renders correctly on mobile viewport (responsive check)
+- [x] T019 Verify color contrast meets WCAG 2.1 AA requirements (4.5:1 ratio)
+- [x] T020 Run quickstart.md verification checklist
 
 ---
 
