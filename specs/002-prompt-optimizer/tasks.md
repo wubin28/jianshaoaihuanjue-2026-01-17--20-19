@@ -26,8 +26,8 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 **Purpose**: Add orange theme tokens and base structure
 
-- [ ] T001 Add orange theme CSS variables to `jianshaoaihuanjue-2026-01-17--21-22/src/app/globals.css`
-- [ ] T002 [P] Update page base styles in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css` with container layout
+- [x] T001 Add orange theme CSS variables to `jianshaoaihuanjue-2026-01-17--21-22/src/app/globals.css`
+- [x] T002 [P] Update page base styles in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css` with container layout
 
 **Checkpoint**: Orange theme tokens available, base container styles ready
 
@@ -39,9 +39,9 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T003 Add 'use client' directive and base component structure in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T004 Define PROMPT_TEMPLATE constant and generateOptimizedPrompt function in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T005 [P] Add title "减少AI幻觉" with orange styling in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T003 Add 'use client' directive and base component structure in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T004 Define PROMPT_TEMPLATE constant and generateOptimizedPrompt function in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T005 [P] Add title "减少AI幻觉" with orange styling in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
 
 **Checkpoint**: Foundation ready - component renders with title, template constant defined
 
@@ -57,21 +57,21 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T006 [P] [US1] Write test: clicking button with input generates optimized prompt in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
-- [ ] T007 [P] [US1] Write test: input clears after generation in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
-- [ ] T008 [P] [US1] Write test: empty input ignored when button clicked in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
-- [ ] T009 [P] [US1] Write test: new generation replaces previous output in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T006 [P] [US1] Write test: clicking button with input generates optimized prompt in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T007 [P] [US1] Write test: input clears after generation in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T008 [P] [US1] Write test: empty input ignored when button clicked in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T009 [P] [US1] Write test: new generation replaces previous output in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
 
 ### Implementation for User Story 1
 
-- [ ] T010 [US1] Add inputText and outputText state with useState in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T011 [US1] Add textarea for input with onChange handler in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T012 [US1] Add "查询常识" button with onClick handler in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T013 [US1] Implement handleGenerate: validate input, generate output, clear input in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T014 [US1] Add output display area above input in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T015 [P] [US1] Add styles for textarea, button, output area in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T016 [US1] Add scrollable overflow for output area in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T017 [US1] Run tests and verify all US1 tests pass
+- [x] T010 [US1] Add inputText and outputText state with useState in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T011 [US1] Add textarea for input with onChange handler in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T012 [US1] Add "查询常识" button with onClick handler in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T013 [US1] Implement handleGenerate: validate input, generate output, clear input in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T014 [US1] Add output display area above input in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T015 [P] [US1] Add styles for textarea, button, output area in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T016 [US1] Add scrollable overflow for output area in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T017 [US1] Run tests and verify all US1 tests pass
 
 **Checkpoint**: User Story 1 fully functional - can enter text, generate optimized prompt, input clears
 
@@ -87,19 +87,19 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T018 [P] [US2] Write test: copy button copies output to clipboard in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
-- [ ] T019 [P] [US2] Write test: copy button shows "已复制" feedback temporarily in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
-- [ ] T020 [P] [US2] Write test: copy button disabled/hidden when no output in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T018 [P] [US2] Write test: copy button copies output to clipboard in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T019 [P] [US2] Write test: copy button shows "已复制" feedback temporarily in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T020 [P] [US2] Write test: copy button disabled/hidden when no output in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
 
 ### Implementation for User Story 2
 
-- [ ] T021 [US2] Add copyFeedback state for button label in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T022 [US2] Implement handleCopy with navigator.clipboard.writeText in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T023 [US2] Add copy button in output area with conditional display in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T024 [US2] Add 2-second timeout to reset copyFeedback in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T025 [US2] Handle clipboard API failure with error feedback in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T026 [P] [US2] Add styles for copy button and feedback states in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T027 [US2] Run tests and verify all US2 tests pass
+- [x] T021 [US2] Add copyFeedback state for button label in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T022 [US2] Implement handleCopy with navigator.clipboard.writeText in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T023 [US2] Add copy button in output area with conditional display in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T024 [US2] Add 2-second timeout to reset copyFeedback in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T025 [US2] Handle clipboard API failure with error feedback in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T026 [P] [US2] Add styles for copy button and feedback states in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T027 [US2] Run tests and verify all US2 tests pass
 
 **Checkpoint**: User Story 2 fully functional - copy button works, shows feedback
 
@@ -115,16 +115,16 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T028 [P] [US3] Write test: component renders correctly at different viewport widths in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
+- [x] T028 [P] [US3] Write test: component renders correctly at different viewport widths in `jianshaoaihuanjue-2026-01-17--21-22/__tests__/page.test.tsx`
 
 ### Implementation for User Story 3
 
-- [ ] T029 [US3] Add desktop-first layout styles (input + button horizontal) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T030 [US3] Add @media query for max-width 640px breakpoint in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T031 [US3] Implement mobile layout (vertical stack, full-width button) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T032 [US3] Adjust padding and spacing for mobile in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T033 [US3] Verify touch-friendly button sizes (min 44px tap target) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
-- [ ] T034 [US3] Run tests and manual responsive testing
+- [x] T029 [US3] Add desktop-first layout styles (input + button horizontal) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T030 [US3] Add @media query for max-width 640px breakpoint in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T031 [US3] Implement mobile layout (vertical stack, full-width button) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T032 [US3] Adjust padding and spacing for mobile in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T033 [US3] Verify touch-friendly button sizes (min 44px tap target) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.module.css`
+- [x] T034 [US3] Run tests and manual responsive testing
 
 **Checkpoint**: User Story 3 complete - responsive layout works 320px to 1920px
 
@@ -134,12 +134,12 @@ Project root: `jianshaoaihuanjue-2026-01-17--21-22/`
 
 **Purpose**: Final improvements affecting all user stories
 
-- [ ] T035 [P] Add accessibility attributes (aria-label, role) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T036 [P] Add keyboard navigation support (Enter to submit) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
-- [ ] T037 Run full test suite with `npm test`
-- [ ] T038 Run linter with `npm run lint` and fix any issues
-- [ ] T039 Verify build passes with `npm run build`
-- [ ] T040 Manual end-to-end validation per quickstart.md acceptance criteria
+- [x] T035 [P] Add accessibility attributes (aria-label, role) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T036 [P] Add keyboard navigation support (Enter to submit) in `jianshaoaihuanjue-2026-01-17--21-22/src/app/page.tsx`
+- [x] T037 Run full test suite with `npm test`
+- [x] T038 Run linter with `npm run lint` and fix any issues
+- [x] T039 Verify build passes with `npm run build`
+- [x] T040 Manual end-to-end validation per quickstart.md acceptance criteria
 
 ---
 
